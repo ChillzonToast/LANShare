@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #F4E8DC;
+  --secondary-color: #484848;
+  --accent-color: #E85D56;
+}
+
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  color: var(--primary-color);
+}
+
+#search-input::placeholder {
+  opacity: 1;
+  color: var(--secondary-color);
+}

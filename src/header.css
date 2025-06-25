@@ -1,0 +1,66 @@
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin-bottom: -95px;
+    user-select: none;
+    z-index: -1;
+}
+
+.circle {
+    position: absolute;
+    margin-top: -233px;
+    width: 410px;
+    height: 328px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+}
+
+.logo-text {
+    z-index: 1;
+    font-family: 'Gudea', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin: 0;
+    margin-bottom: 20px
+}
+
+.bg-secondary-color {
+    background-color: var(--secondary-color);
+}
+
+.outline-secondary-color {
+    outline-color: var(--secondary-color);
+}
+
+.outline-accent-color {
+    outline-color: var(--accent-color);
+}
+
+.text-secondary-color {
+    color: var(--secondary-color);
+}
+
+.bg-accent-color {
+    background-color: var(--accent-color);
+}
+.nav-bar {
+    font-size: 14px;
+}
+
+#settings-button, #change-group-button {
+    user-select: none;
+}
+
+span::selection, h1::selection {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+img {
+    user-select: none;
+}

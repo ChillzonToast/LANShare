@@ -1,0 +1,23 @@
+.card {
+    background-color: var(--secondary-color);
+    padding: 14px;
+}
+
+.card-button {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.downloaded-progress {
+    background-color: var(--primary-color);
+    height: 10px;
+    width: 50%;
+}
+
+.remaining-progress {
+    background-color: var(--accent-color);
+    height: 10px;
+    width: 50%;
+}
