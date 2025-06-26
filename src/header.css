@@ -41,6 +41,14 @@
     outline-color: var(--accent-color);
 }
 
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+
+.text-primary-color {
+    color: var(--primary-color);
+}
+
 .text-secondary-color {
     color: var(--secondary-color);
 }
