@@ -5,6 +5,13 @@
   --secondary-color: #484848;
   --accent-color: #E85D56;
 }
+@font-face {
+  font-family: 'Gudea';
+  src: url('./assets/Gudea-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
   background-color: var(--primary-color);
